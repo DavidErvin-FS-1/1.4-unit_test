@@ -23,7 +23,6 @@ describe("obscureCreditCard", () => {
   })
 
   // Negative test cases
-
   test("Should return 'Invalid Credit Card' for an empty string", () => {
     expect(obscureCreditCard("")).toBe("Invalid Credit Card")
   })
